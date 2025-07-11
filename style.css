@@ -1,0 +1,158 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+
+a {
+  text-decoration: none;
+ color: #E5E7EB;
+ margin-left: 12px;
+}
+
+.top {
+  color: #ffffff;
+  max-width: 1500px;
+}
+
+.top-1,
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+}
+
+.header {
+   display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.title-img {
+  display: flex;
+  gap: 12px;
+  padding-block: 90px 120px;
+} 
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.h1 > p,
+.header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.h1 {
+  text-align: left;
+}
+
+.big-box {
+  display: flex;
+  gap: 30px;
+  max-inline-size: 1000px;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.box > img {
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px rgb(93, 229, 222) solid;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.text {
+    color: rgb(102, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+} 
+
+h2 {
+  padding-top: 25px;
+  font-size: 43px;
+
+}
+
+.quote-bg {
+  background-color: #E5E7EB;
+  padding: 50px;
+  font-size: 30px;
+  margin: au;
+}
+
+.name {
+  text-align: end;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+ .quote {
+  max-inline-size: 900px;
+ margin: auto;
+ }
+
+ .call-bg {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  display: flex;
+  max-inline-size: 1100px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 7px;
+  justify-content: space-evenly;
+  flex: 1;
+ }
+
+ .call {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .footer {
+  padding: 30px;
+ }
+
+ .btm,
+ .btm-2 {
+  border-radius: 8px;
+  padding: 5px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #3882F6;
+  margin-top: 12px;
+  color: #FFFFFF;
+  border: 2px solid #1F2937;
+ }
+
+.btm-2 {
+    border: 2px solid #FFFFFF;
+ }
+
+.call > p {
+   color: #e4eade;
+   font-size: 18px;
+ }
+
+ .call h3 {
+   font-size: 29px;
+ }
